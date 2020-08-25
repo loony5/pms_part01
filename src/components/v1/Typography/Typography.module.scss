@@ -1,0 +1,88 @@
+@import "~styles/scss/variables/color.scss";
+
+.Typography {
+	font-family: "Roboto", "Noto Sans KR";
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: normal;
+	&.h1 {
+		font-size: 32px;
+		font-weight: bold;
+	}
+
+	&.h2 {
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	&.h3 {
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	&.h4 {
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	&.p1 {
+		font-size: 16px;
+		font-weight: normal;
+	}
+
+	&.p2 {
+		font-size: 14px;
+		font-weight: normal;
+	}
+
+	&.p3 {
+		font-size: 12px;
+		font-weight: normal;
+	}
+
+	&.p4 {
+		font-size: 10px;
+		font-weight: normal;
+	}
+
+	&.almostBlack {
+		color: $almost-black;
+	}
+	&.dark {
+		color: $dark;
+	}
+	&.darkTwo {
+		color: $dark-two;
+	}
+	&.black {
+		color: $black;
+	}
+	&.brownishGrey {
+		color: $brownish-grey;
+	}
+	&.brownGrey {
+		color: $brown-grey;
+	}
+	&.white {
+		color: $white;
+	}
+	&.orangeYellow {
+		color: $orange-yellow;
+	}
+	&.brightAqua {
+		color: $bright-aqua;
+	}
+	&.red {
+		color: $red;
+	}
+	&.green {
+		color: $green;
+	}
+	&.yellow {
+		color: $yellow;
+	}
+
+	&.vibrantGreen {
+		color: $vibrant-green;
+	}
+}

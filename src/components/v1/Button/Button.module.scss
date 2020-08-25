@@ -1,0 +1,90 @@
+@import "src/styles/scss/common.scss";
+
+
+.Button {
+  &:focus {
+    outline-style: none;
+  }
+
+  &:last-child,
+  &.large:last-child,
+  &.medium:last-child,
+  &.small:last-child {
+    margin:0;
+  }
+
+  &.large {
+    margin-right: 10px;
+    // width: 170px;
+    height: 50px;
+    font-size: 16px;
+    padding: 13px 70px 13px 70px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  &.medium {
+    height: 40px;
+    margin-right: 6px;
+    font-size: 16px;
+    padding: 8px 26px 8px 26px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+  }
+
+  &.small {
+    height: 24px;
+    margin-right: 6px;
+    font-size: 12px;
+    padding: 3px 12px 3px 12px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+  }
+
+  &.disabled {
+    background-color: #595959;
+    color: $black;
+    cursor: not-allowed;
+  }
+
+  &.bordered {
+    &.white {
+      background-color: transparent;
+      border: 1px solid $white;
+      color: $white;
+    }
+
+    &.red {
+      background-color: transparent;
+      border: 1px solid $red;
+      color: $red;
+    }
+    
+  &.brownish-grey {
+    background-color: transparent;
+    border: 1px solid $brownish-grey;
+    color: $white;
+  }
+  }
+
+
+  &.white {
+    background-color: $white;
+    color: $almost-black;
+  }
+
+  &.red {
+    background-color: $red;
+    color: $white;
+  }
+
+  &.brownish-grey {
+    background-color: $white;
+    color: $brownish-grey;
+  }
+}
